@@ -10,6 +10,7 @@ export const size = {
   laptopS: "1350px",
   laptopL: "1440px",
   desktop: "2560px",
+  tabletA: "3333px"
 };
 export const device = {
   mobileS: `(max-width: ${size.mobileS})`,
@@ -24,6 +25,7 @@ export const device = {
   laptopL: `(max-width: ${size.laptopL})`,
   desktop: `(max-width: ${size.desktop})`,
   desktopL: `(max-width: ${size.desktop})`,
+  tabletA: `(max-width: ${size.tabletA})`,
 };
 //import { device } from "./../../../contants";
 
